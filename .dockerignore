@@ -1,0 +1,20 @@
+# Виртуальное окружение
+
+venv/
+
+# Кэш Python
+
+**pycache**/
+
+# Secrets
+
+.env
+
+# Git
+
+.git
+.gitignore
+
+# README
+
+README.md
