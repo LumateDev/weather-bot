@@ -43,7 +43,9 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-SUBSCRIBERS_FILE = "subscribers.json"
+DATA_DIR = Path("data")
+DATA_DIR.mkdir(exist_ok=True)
+SUBSCRIBERS_FILE = DATA_DIR / "subscribers.json"
 MOSCOW_TZ = pytz.timezone("Europe/Moscow")
 
 

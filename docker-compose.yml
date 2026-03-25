@@ -6,4 +6,4 @@ services:
     env_file:
       - .env
     volumes:
-      - ./subscribers.json:/app/subscribers.json
+      - ./data:/app/data
